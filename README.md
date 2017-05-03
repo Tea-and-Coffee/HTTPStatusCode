@@ -1,5 +1,6 @@
 # HTTPStatusCode
 
+```
 typedef NS_ENUM(NSInteger, HTTPStatusCode) {
     HTTPStatusCodeZero                              =   0, // デフォルト値
     
@@ -71,3 +72,4 @@ typedef NS_ENUM(NSInteger, HTTPStatusCode) {
     HTTPStatusCodeBandwidthLimitExceeded            = 509, // 帯域幅制限超過
     HTTPStatusCodeNotExtended                       = 510  // 拡張できない
 };
+```
